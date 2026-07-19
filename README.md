@@ -1,6 +1,6 @@
  Light, Held Still — Photography Portfolio
 
-**Author:** Asha Wanjiru *(replace with your own name)*
+\ James gacheru
 
 ## Description
 
