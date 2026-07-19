@@ -103,3 +103,15 @@ strong { font-weight: 700; }
 }
 .frame { position: relative; background-color: var(--color-bg-alt); overflow: hidden; }
 .frame img { aspect-ratio: 1 / 1; transition: transform 0.5s ease, filter 0.5s ease; filter: grayscale(35%); }
+
+.frame:hover img { transform: scale(1.06); filter: grayscale(0%); }
+.frame__number {
+  position: absolute; top: var(--space-xs); left: var(--space-xs);
+  font-family: var(--font-mono); font-size: 0.7rem; color: var(--color-paper);
+  background-color: rgba(23, 20, 15, 0.7); padding: 0.15rem 0.5rem; letter-spacing: 0.05em; z-index: 2;
+}
+.frame__caption {
+  position: absolute; bottom: 0; left: 0; right: 0; font-size: 0.8rem; color: var(--color-paper);
+  background: linear-gradient(to top, rgba(23,20,15,0.85), transparent);
+  padding: var(--space-sm) var(--space-xs) var(--space-xs); z-index: 2;
+}
