@@ -138,3 +138,6 @@ strong { font-weight: 700; }
   text-transform: uppercase; border: none; padding: 0.85rem; cursor: pointer; transition: opacity 0.2s ease;
 }
 .form-submit:hover, .form-submit:focus-visible { opacity: 0.85; }
+
+.site-footer { border-top: 1px solid var(--color-border); text-align: center; padding: var(--space-md); color: var(--color-ink-muted); font-size: 0.85rem; }
+.site-footer__meta { margin-top: 0.3rem; font-family: var(--font-mono); font-size: 0.75rem; }
