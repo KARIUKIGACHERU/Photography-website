@@ -1,0 +1,22 @@
+:root {
+  --color-bg: #17140f;
+  --color-bg-alt: #211d17;
+  --color-paper: #f4efe3;
+  --color-ink: #f4efe3;
+  --color-ink-muted: #a79c88;
+  --color-accent: #c1652b;
+  --color-accent-soft: #c1652b33;
+  --color-border: #3a342a;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, sans-serif;
+  --font-mono: "Space Mono", "Courier New", monospace;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 7rem;
+
+  --max-width: 1100px;
+}
