@@ -78,3 +78,18 @@ strong { font-weight: 700; }
   background-position: center; background-repeat: repeat-x; background-size: 30px 12px;
   border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);
 }
+.about {
+  max-width: var(--max-width); margin: 0 auto; padding: var(--space-xl) var(--space-md);
+  display: grid; grid-template-columns: 320px 1fr; gap: var(--space-lg); align-items: start;
+}
+.about__frame { position: relative; border: 10px solid var(--color-paper); box-shadow: 0 20px 40px rgba(0,0,0,0.45); }
+.about__portrait { filter: grayscale(15%) contrast(1.05); }
+.about__frame-label {
+  position: absolute; bottom: -1.6rem; left: 0; font-family: var(--font-mono);
+  font-size: 0.7rem; color: var(--color-ink-muted); letter-spacing: 0.1em;
+}
+.about__text h2 { font-size: 2.2rem; margin-bottom: var(--space-sm); }
+.about__text p { color: var(--color-ink-muted); margin-bottom: var(--space-sm); max-width: 62ch; }
+.about__facts { margin-top: var(--space-sm); border-top: 1px solid var(--color-border); padding-top: var(--space-sm); }
+.about__facts li { font-size: 0.9rem; padding: 0.35rem 0; color: var(--color-ink-muted); }
+.about__facts li strong { color: var(--color-ink); margin-right: 0.4em; }
