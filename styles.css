@@ -93,3 +93,13 @@ strong { font-weight: 700; }
 .about__facts { margin-top: var(--space-sm); border-top: 1px solid var(--color-border); padding-top: var(--space-sm); }
 .about__facts li { font-size: 0.9rem; padding: 0.35rem 0; color: var(--color-ink-muted); }
 .about__facts li strong { color: var(--color-ink); margin-right: 0.4em; }
+.gallery { background-color: var(--color-bg-alt); }
+.gallery__intro { max-width: var(--max-width); margin: 0 auto; padding: var(--space-lg) var(--space-md) var(--space-md); }
+.gallery__intro h2 { font-size: 2.2rem; margin-bottom: var(--space-xs); }
+.gallery__intro p { color: var(--color-ink-muted); }
+.gallery__grid {
+  max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-md) var(--space-lg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; background-color: var(--color-border);
+}
+.frame { position: relative; background-color: var(--color-bg-alt); overflow: hidden; }
+.frame img { aspect-ratio: 1 / 1; transition: transform 0.5s ease, filter 0.5s ease; filter: grayscale(35%); }
