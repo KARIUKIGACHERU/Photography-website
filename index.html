@@ -106,10 +106,40 @@
           <img src="./images/" alt="A lone matatu at night with headlights on">
           <p class="frame__caption">Last Route, Thika Road</p>
         </li>
-        </li>
       </ol>
     </section>
       </div>
+      <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact__text">
+        <span class="section-eyebrow">Let's work together</span>
+        <h2>Get in touch</h2>
+        <p>
+          Have a shoot in mind, or just want to talk about <em>film stock</em>? Send a note below
+          and I will write back within a couple of days.
+        </p>
+      </div>
+
+      <form class="contact__form" id="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Mwangi" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Portrait session inquiry" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me a little about what you have in mind&hellip;" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send message</button>
+      </form>
+    </section>
     </section>
 
   </main>
